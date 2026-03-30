@@ -1,0 +1,23 @@
+# AML Mule Detection — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML
+lightgbm==4.3.0
+xgboost==2.0.3
+catboost==1.2.5
+scikit-learn==1.4.2
+
+# Data
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==16.0.0
+fastparquet==2024.2.0
+
+# Explainability
+shap==0.45.0
+
+# Visualisation
+matplotlib==3.8.4
+
+# Utilities
+joblib==1.4.2

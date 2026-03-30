@@ -1,0 +1,14 @@
+{
+  "auc_roc": 0.94994,
+  "best_f1": 0.80102,
+  "best_f1_exact": 0.80132,
+  "best_threshold": 0.68,
+  "ensemble_lgb": 0.6,
+  "ensemble_xgb": 0.35,
+  "ensemble_cb": 0.05,
+  "score_transform": "power(0.85)",
+  "feature_source": "features/all_features_v4.parquet",
+  "n_train": 96091,
+  "n_mule": 2683,
+  "n_features": 132
+}

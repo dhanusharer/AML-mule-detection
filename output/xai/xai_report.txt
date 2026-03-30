@@ -1,0 +1,24 @@
+AML MULE DETECTION XAI REPORT
+==================================================
+
+Features used : 132
+Best OOF F1   : 0.80132 @ threshold 0.6371
+Top pattern   : Fan-In / Fan-Out
+Top feature   : f_total_cp_connections
+
+TOP 15 FEATURES:
+  f_total_cp_connections                   113998.8  [Fan-In / Fan-Out]
+  f_days_frozen                            62283.5  [Dormant Activation]
+  f_unique_counterparties                  47697.6  [Other]
+  f_days_since_kyc                         38954.2  [KYC Non-Compliance]
+  f_near_zero_bal_ratio                    28117.5  [Structuring]
+  f_txn_acceleration                       24350.8  [Dormant Activation]
+  f_shared_counterparties                  22310.8  [Branch-Level Collusion]
+  f_atm_fraction                           21966.5  [Layered/Subtle]
+  f_log_branch_turnover                    21506.0  [Branch-Level Collusion]
+  f_avg_mcc_anomaly                        20088.8  [MCC-Amount Anomaly]
+  f_structuring_ratio                      19301.6  [Structuring]
+  f_account_age_days                       17760.6  [New Account High Value]
+  f_days_since_address_update              17296.7  [Other]
+  f_round_amount_ratio                     15582.0  [Round Amount Patterns]
+  f_morning_ratio                          15162.7  [Other]
